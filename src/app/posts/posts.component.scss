@@ -1,0 +1,17 @@
+.container-img-text{
+  position: relative;
+  display: inline-block;
+}
+.img {
+  object-fit: cover;
+  max-width: 100%;
+  height: 500px;
+
+}
+
+
+.img-text{
+  position: absolute;
+  bottom: 0;
+  right: 1rem;
+}
