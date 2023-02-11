@@ -1,0 +1,28 @@
+<div class="modal-header">
+  <h4 class="modal-title text-center fw-bold">Create Post</h4>
+  <button type="button" class="btn-close" aria-label="Close" (click)="activeModal.dismiss('Cross click')"></button>
+</div>
+<div class="modal-body">
+  <div class="mb-3">
+    <label for="exampleFormControlInput1" class="form-label">Title</label>
+    <input type="text" class="form-control" id="exampleFormControlInput1">
+  </div>
+  <div class="mb-3">
+    <label for="exampleFormControlTextarea1" class="form-label">Description</label>
+    <textarea class="form-control" id="exampleFormControlTextarea1" rows="2"></textarea>
+  </div>
+  <select class="form-select" aria-label="Default select example">
+    <option selected>Category</option>
+    <option value="1">Travel</option>
+    <option value="2">Lifestyle</option>
+    <option value="3">Food</option>
+  </select>
+  <div class="mb-3">
+    <label for="exampleFormControlInput1" class="form-label">URL</label>
+    <input type="text" class="form-control" id="exampleFormControlInput1" placeholder="https://source.unsplash.com/random">
+  </div>
+</div>
+<div class="modal-footer">
+  <button type="button" class="btn btn-outline-dark">Cancel</button>
+  <button type="button" class="btn btn-outline-dark">Save</button>
+</div>
