@@ -2,3 +2,9 @@
 
 /* Importing Bootstrap SCSS file. */
 @import 'bootstrap/scss/bootstrap';
+@import url('https://fonts.googleapis.com/css2?family=Lato:wght@400;700&display=swap'); //fuentes de Google Font
+
+
+*{
+  font-family: 'Lato', sans-serif;
+}
